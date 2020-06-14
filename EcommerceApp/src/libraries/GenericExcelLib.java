@@ -22,7 +22,7 @@ public class GenericExcelLib
 		return value;
 	}
 
-	public static Object[][] getDataFromExcel(String path,String sheetName)
+	public static Object[][] getDataFromExcelFile(String path,String sheetName)
 	{
 		Object [][] arr=null;
 		try {

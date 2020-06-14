@@ -75,7 +75,6 @@ public class BaseTest implements IAutoConstants
 			}
 			Homepage home=new Homepage(driver, webActionUtil);
 			home.clickOnlogout();
-			
 		}
 			
 		@AfterClass(alwaysRun=true)

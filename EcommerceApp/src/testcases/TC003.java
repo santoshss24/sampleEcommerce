@@ -9,7 +9,7 @@ import Pages.Orderpage;
 import Pages.ProductPage;
 import libraries.GenericExcelLib;
 
-public class TC002 extends BaseTest
+public class TC003 extends BaseTest
 {
 	@DataProvider
 	public Object[][] getData()
@@ -18,7 +18,7 @@ public class TC002 extends BaseTest
 	}
 	
 	@Test(dataProvider="getData")
-	public void AddToCartFromExcel(String productId, String size, String color) throws InterruptedException
+	public void validLogin(String productId, String size, String color) throws InterruptedException
 	{
 		productId=productId.substring(0, 1);
 		Homepage h=new Homepage(driver, webActionUtil);
