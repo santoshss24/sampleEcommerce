@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="168690" started-at="2020-06-14T14:26:52Z" finished-at="2020-06-14T14:29:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="168690" started-at="2020-06-14T14:26:52Z" finished-at="2020-06-14T14:29:41Z">
+      <class name="testcases.TC002">
+        <test-method status="PASS" signature="launchApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="launchApp" is-config="true" duration-ms="33220" started-at="2020-06-14T19:56:52Z" finished-at="2020-06-14T19:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="loginToApp" is-config="true" duration-ms="18014" started-at="2020-06-14T19:57:27Z" finished-at="2020-06-14T19:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh.shriramoj3024@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="validLogin" duration-ms="16925" started-at="2020-06-14T19:57:45Z" data-provider="getData" finished-at="2020-06-14T19:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testcases.TC002@59f99ea]" name="logoutFromApp" is-config="true" duration-ms="2839" started-at="2020-06-14T19:58:02Z" finished-at="2020-06-14T19:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC002.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="loginToApp" is-config="true" duration-ms="5900" started-at="2020-06-14T19:58:05Z" finished-at="2020-06-14T19:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh.shriramoj3024@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="validLogin" duration-ms="15464" started-at="2020-06-14T19:58:10Z" data-provider="getData" finished-at="2020-06-14T19:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testcases.TC002@59f99ea]" name="logoutFromApp" is-config="true" duration-ms="3078" started-at="2020-06-14T19:58:26Z" finished-at="2020-06-14T19:58:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC002.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="loginToApp" is-config="true" duration-ms="7242" started-at="2020-06-14T19:58:29Z" finished-at="2020-06-14T19:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh.shriramoj3024@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="validLogin" duration-ms="14548" started-at="2020-06-14T19:58:36Z" data-provider="getData" finished-at="2020-06-14T19:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testcases.TC002@59f99ea]" name="logoutFromApp" is-config="true" duration-ms="2508" started-at="2020-06-14T19:58:51Z" finished-at="2020-06-14T19:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC002.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="loginToApp" is-config="true" duration-ms="5605" started-at="2020-06-14T19:58:53Z" finished-at="2020-06-14T19:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh.shriramoj3024@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="validLogin" duration-ms="13735" started-at="2020-06-14T19:58:59Z" data-provider="getData" finished-at="2020-06-14T19:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testcases.TC002@59f99ea]" name="logoutFromApp" is-config="true" duration-ms="2987" started-at="2020-06-14T19:59:13Z" finished-at="2020-06-14T19:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC002.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="loginToApp" is-config="true" duration-ms="6514" started-at="2020-06-14T19:59:16Z" finished-at="2020-06-14T19:59:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[santosh.shriramoj3024@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea]" name="validLogin" duration-ms="14248" started-at="2020-06-14T19:59:22Z" data-provider="getData" finished-at="2020-06-14T19:59:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testcases.TC002@59f99ea]" name="logoutFromApp" is-config="true" duration-ms="3569" started-at="2020-06-14T19:59:36Z" finished-at="2020-06-14T19:59:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TC002.validLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC002@59f99ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC002@59f99ea]" name="closeApp" is-config="true" duration-ms="1099" started-at="2020-06-14T19:59:40Z" finished-at="2020-06-14T19:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testcases.TC002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
